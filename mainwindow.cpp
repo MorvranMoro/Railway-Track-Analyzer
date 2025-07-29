@@ -106,12 +106,12 @@ MainWindow::~MainWindow() {
 
 bool MainWindow::initializeDatabase()
 {
-    // Здесь укажите свои параметры подключения
+
     return dbManager->connectToDatabase(
-        "localhost",  // хост
-        "postgres",      // имя базы данных
-        "postgres",   // пользователь
-        "030303" // пароль
+        "localhost",
+        "postgres",
+        "postgres",
+        "030303"
         );
 }
 

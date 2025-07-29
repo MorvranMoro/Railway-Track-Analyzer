@@ -16,7 +16,6 @@
 #include <QSqlDatabase>
 #include "databaseManager.h"
 
- // Необходимо для графиков
 
     class MainWindow : public QMainWindow
 {
